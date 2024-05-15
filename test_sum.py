@@ -10,5 +10,6 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum(-1, -1), -2)
         self.assertEqual(sum(-1, 1), 0)
 
+
 if __name__ == '__main__':
     unittest.main()
